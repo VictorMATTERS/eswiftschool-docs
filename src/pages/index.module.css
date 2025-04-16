@@ -21,3 +21,26 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.heroBanner {
+  background-color: #1e293b; /* Custom background color (e.g., slate-800) */
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .buttons a {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
