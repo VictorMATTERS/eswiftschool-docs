@@ -12,10 +12,10 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-        {siteConfig.title}
+        <Heading as="h1" className={styles.heroTitle}>
+          {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle text-lg mb-6">
+        <p className={styles.heroSubtitle}>
           Everything you need to know to get started with eSwiftSchool
         </p>
         <div className={styles.buttons}>
