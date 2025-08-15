@@ -58,8 +58,8 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        { to: '/docs/Admin/intro', label: 'Admin', position: 'left' },
-        { to: '/docs/Parent/intro', label: 'Parent', position: 'left' },
+        { to: '/docs/admin/intro', label: 'Admin', position: 'left' },
+        { to: '/docs/parent/intro', label: 'Parent', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://eswiftschool.com',
@@ -76,11 +76,11 @@ const config: Config = {
           items: [
             {
               label: 'Admin Tutorial',
-              to: '/docs/Admin/intro',
+              to: '/docs/admin/intro',
             },
             {
               label: 'Parent Tutorial',
-              to: '/docs/Parent/intro',
+              to: '/docs/parent/intro',
             },
           ],
         },
