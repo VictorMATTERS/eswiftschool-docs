@@ -58,16 +58,12 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
+        { to: '/docs/admin/intro', label: 'Admin', position: 'left' },
+        { to: '/docs/parent/intro', label: 'Parent', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/eswiftschool',
-          label: 'GitHub',
+          href: 'https://eswiftschool.com',
+          label: 'eSwiftSchool',
           position: 'right',
         },
       ],
@@ -79,21 +75,25 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/intro',
+              label: 'Admin Tutorial',
+              to: '/docs/admin/intro',
+            },
+            {
+              label: 'Parent Tutorial',
+              to: '/docs/parent/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Connect with us',
           items: [
             {
               label: 'Twitter',
               href: 'https://x.com/eswiftschool',
             },
             {
-              label: 'Discord',
-              href: 'https://discord.gg/your-link',
+              label: 'Facebook',
+              href: 'https://facebook.com/eswiftschool',
             },
           ],
         },
@@ -105,13 +105,13 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/eswiftschool',
+              label: 'eSwiftSchool',
+              href: 'https://eswiftschool.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} eSwiftSchool. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} eSwiftSchool`,
     },
     prism: {
       theme: prismThemes.github,
