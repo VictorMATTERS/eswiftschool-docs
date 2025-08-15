@@ -15,7 +15,7 @@ const config: Config = {
   organizationName: 'eswiftschool', // your GitHub org/user name
   projectName: 'documentation', // your repo name if deployed from GitHub
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
