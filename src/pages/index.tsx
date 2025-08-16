@@ -30,13 +30,12 @@ function HomepageHeader() {
     </header>
   );
 }
-
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`eSwiftSchool - User Documentation`}
+      description="Comprehensive user guide for eSwiftSchool, a modern school management system that simplifies student enrollment, attendance tracking, grading, communication, and administration for schools of all sizes.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
@@ -44,3 +43,4 @@ export default function Home(): ReactNode {
     </Layout>
   );
 }
+

@@ -51,22 +51,25 @@ This guide will walk you through **creating your school portal** and completing 
 
 ---
 
-## Step 2 - Onboarding
+# Step 2 - Onboarding
 
-After logging in for the first time, eSwiftSchool will guide you through your **initial setup**:
+After logging in for the first time, **eSwiftSchool** will guide you through your **initial setup**:
 
-1. **Verify your Email** — Check your inbox for a verification link from eSwiftSchool. Click it to confirm your email.
-2. **Add Classes** — Create at least one class to start enrolling students.
-3. **Add Staff** — Invite teachers and admins.
-4. **Set Up Fee Structure** *(optional)* — Define school fees for finance tracking.
-
-> ✅ You can skip any step now and complete it later from your admin dashboard.
-
-**Once Onboarding is complete:**
-- You’ll land on your **Admin Dashboard**.
-- From here, you can manage **students, staff, classes, attendance, and finances**.
+1. **Verify Your Email** — Check your inbox for a verification link from eSwiftSchool and click it to confirm your email.
+2. **Select Class Levels** — Choose the class levels your school operates, then click **Next**.
+3. **Select Classes** — A list of classes will be suggested based on your selected class levels. Click **Next** to proceed.  
+   *Note: You can always rename or add more classes later if needed.*
+4. **Set Current Session** — Review the start and end dates of the terms and adjust them to match your school calendar. Finally, click **Finish**.  
+   *Tip: Ensure the dates are accurate to help the system manage scheduling effectively and keep school operations running smoothly.*
 
 ---
 
+## After Onboarding
+
+Once onboarding is complete:
+
+- You’ll land on your **Admin Dashboard**.  
+- From here, you can manage **students, staff, classes, attendance, finances, conduct CBT examinations, and more**.
+
 **Need Help?**  
-Contact support via **Help → Contact Support** in your dashboard.
+Contact support via **Support → Contact Us** in your dashboard.
