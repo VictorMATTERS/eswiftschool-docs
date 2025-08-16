@@ -7,13 +7,11 @@ const config: Config = {
   tagline: 'Your Ultimate School Management Solution',
   favicon: 'img/favicon.ico',
 
-  // Set your actual production domain
-  url: 'https://docs.eswiftschool.com',
+  url: 'https://docs.eswiftschool.com', // 👈 correct domain
   baseUrl: '/',
 
-  // If you plan to use GitHub Pages, adjust these
-  organizationName: 'eswiftschool', // your GitHub org/user name
-  projectName: 'documentation', // your repo name if deployed from GitHub
+  organizationName: 'eswiftschool',
+  projectName: 'documentation',
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -45,6 +43,8 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        // 👇 Keep sitemap default (no need to add plugins block)
+        // sitemap: { } // if you want, you can still customize here
       } satisfies Preset.Options,
     ],
   ],
@@ -74,40 +74,22 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Admin Tutorial',
-              to: '/docs/admin/intro',
-            },
-            {
-              label: 'Parent Tutorial',
-              to: '/docs/parent/intro',
-            },
+            { label: 'Admin Tutorial', to: '/docs/admin/intro' },
+            { label: 'Parent Tutorial', to: '/docs/parent/intro' },
           ],
         },
         {
           title: 'Connect with us',
           items: [
-            {
-              label: 'Twitter',
-              href: 'https://x.com/eswiftschool',
-            },
-            {
-              label: 'Facebook',
-              href: 'https://facebook.com/eswiftschool',
-            },
+            { label: 'Twitter', href: 'https://x.com/eswiftschool' },
+            { label: 'Facebook', href: 'https://facebook.com/eswiftschool' },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'eSwiftSchool',
-              href: 'https://eswiftschool.com',
-            },
+            { label: 'Blog', to: '/blog' },
+            { label: 'eSwiftSchool', href: 'https://eswiftschool.com' },
           ],
         },
       ],
