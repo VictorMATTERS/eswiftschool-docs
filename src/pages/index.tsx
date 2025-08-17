@@ -34,7 +34,7 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`eSwiftSchool - User Documentation`}
+      title={`User Documentation`}
       description="Comprehensive user guide for eSwiftSchool, a modern school management system that simplifies student enrollment, attendance tracking, grading, communication, and administration for schools of all sizes.">
       <HomepageHeader />
       <main>
