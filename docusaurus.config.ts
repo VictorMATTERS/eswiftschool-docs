@@ -57,6 +57,8 @@ const config: Config = {
         indexDocs: true,
         indexBlog: true,
         indexPages: true,
+        highlightSearchTermsOnTargetPage: true, 
+        explicitSearchResultPath: true,
         docsRouteBasePath: '/docs',
       },
     ],
