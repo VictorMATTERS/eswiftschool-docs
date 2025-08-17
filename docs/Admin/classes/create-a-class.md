@@ -18,7 +18,7 @@ In short, every class you have in real life **in your school** should also exist
 ## Steps to Create a Class
 
 1. **Log in** to your **Admin Dashboard**.  
-2. From the left menu, click **Classes**.  
+2. From the side menu, click **Classes**.  
    - This will open the **Classes page**, where you can see a list of all existing classes (if any).  
 3. On the top-right (or above the list), click the **Create Class** button.  
    - A **modal form** will pop up.  
@@ -57,8 +57,7 @@ Another example:
 
 ## Why Class Level Matters
 
-- If you choose **Primary** as the class level, your school will automatically see Primary subjects like English, Mathematics, and Basic Science.  
-- If you choose **Senior Secondary**, your school will instead have subjects like Physics, Chemistry, Literature, and Government.  
+Subjects in are grouped by **class levels**, so it’s important to choose the appropriate class level when creating a class. This ensures that each class is automatically linked to the correct collection of subjects.
 
 👉 This is why it is important to always select the **appropriate class level** when creating a class.
 

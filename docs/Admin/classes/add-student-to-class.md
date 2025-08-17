@@ -4,52 +4,39 @@ sidebar_position: 2
 
 # Add Student to Class
 
-Docusaurus can manage multiple versions of your docs.
+There are several ways you can add a student to a class in the system:  
 
-## Create a docs version
+---
 
-Release a version 1.0 of your project:
+## 1. From the List of Classes
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+- From the side menu, click **Classes**.  
+- This will open the list of all classes in your school.  
+- On the right side of the class you want, click the **3 vertical dots** (More Options).  
+- From the menu, select **Add Student**.  
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+![Classes Page](./img/classes-page.png)  
 
-Your docs now have 2 versions:
+- A modal will pop up showing a list of students who are not assigned to any class.  
+- Next to each student’s name, you will see an **Add Student** button.  
+- Click **Add Student** for each student you want to include in the class.  
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+![Add Student Modal](./img/add-student-modal.png)   
 
-## Add a Version Dropdown
+---
 
-To navigate seamlessly across versions, add a version dropdown.
+## 2. From Inside a Class  
 
-Modify the `docusaurus.config.js` file:
+- Open the class by clicking its name from the **Classes list**.  
+- Go to the **Students** tab *(usually the first tab)*.  
 
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
+![Students Tab](./img/class-students-tab.png)  
 
-The docs version dropdown appears in your navbar:
+- Click the **Add Student** button.  
+- A modal will appear with a list of unassigned students.  
+- Click the **Add Student** button next to each student you want to assign to the class.  
 
 
+---
 
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+🎉 Once added, the students will now appear under the selected class and can participate in attendance, assessments, examination and other class activities.

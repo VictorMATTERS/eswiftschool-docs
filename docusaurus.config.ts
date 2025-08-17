@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Your Ultimate School Management Solution',
   favicon: 'img/favicon.ico',
 
-  url: 'https://docs.eswiftschool.com', // 👈 correct domain
+  url: 'https://docs.eswiftschool.com',
   baseUrl: '/',
 
   organizationName: 'eswiftschool',
@@ -43,9 +43,22 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        // 👇 Keep sitemap default (no need to add plugins block)
-        // sitemap: { } // if you want, you can still customize here
       } satisfies Preset.Options,
+    ],
+  ],
+
+  // 👇 Add search plugin here
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        docsRouteBasePath: '/docs',
+      },
     ],
   ],
 
