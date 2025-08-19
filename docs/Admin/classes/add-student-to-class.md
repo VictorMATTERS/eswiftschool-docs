@@ -15,7 +15,7 @@ There are several ways you can add a student to a class in the system:
 - On the right side of the class you want, click the **3 vertical dots** (More Options).  
 - From the menu, select **Add Student**.  
 
-![Classes Page](./img/classes-page.png)  
+![Classes Page](./img/classes-page-add-student.png)  
 
 - A modal will pop up showing a list of students who are not assigned to any class.  
 - Next to each student’s name, you will see an **Add Student** button.  

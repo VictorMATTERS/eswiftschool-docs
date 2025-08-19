@@ -1,54 +1,51 @@
 ---
 sidebar_position: 3
+title: Add Staff to Class
+tags: [Assign Teacher, Add Staff, Link Staff, Teacher to Class, eSwiftSchool]
 ---
 
-# Add Staff to Class
+# 👨‍🏫 Add Staff to Class (Assign Teacher)
 
-Docusaurus can manage multiple versions of your docs.
+There are different ways to assign a staff member (teacher) to a class in the system.  
 
-## Create a docs version
+---
 
-Release a version 1.0 of your project:
+## 1. From the List of Classes  
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+1. From the side menu, click **Classes**.  
+2. This will display the list of all classes in your school.  
+3. On the right side of the class you want, click the **3 vertical dots** (More Options).  
+4. From the menu, select **Assign Teacher**.  
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+📌 Example of Classes Page:  
+![Classes Page](./img/classes-page-add-staff.png)  
 
-Your docs now have 2 versions:
+5. A modal will pop up showing a list of available staff who are not yet assigned to this class.  
+6. Next to each staff name, click **Assign** to add the teacher to that class.  
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+📌 Example of Assign Teacher Modal:  
+![Assign Teacher Modal](./img/assign-teacher-modal.png)  
 
-## Add a Version Dropdown
+---
 
-To navigate seamlessly across versions, add a version dropdown.
+## 2. From Inside a Class  
 
-Modify the `docusaurus.config.js` file:
+1. Open the class by clicking its name from the **Classes list**.  
+2. Go to the **Staff** tab *(next to Students tab)*.  
 
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
+📌 Example of Staff Tab:  
+![Staff Tab](./img/class-staff-tab.png)   
 
-The docs version dropdown appears in your navbar:
+3. Click the **Assign Teacher** button.  
+4. A modal will appear with a list of unassigned staff members.  
+5. Click **Assign** next to each teacher you want to add.  
 
+---
 
-## Update an existing version
+## ✅ Important Notes
+- Only **academic staff** are shown in the assign list.  
+- Staff registered as **non-academic** will **not** appear for assignment.  
 
-It is possible to edit versioned docs in their respective folder:
+---
 
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+🎉 Once assigned, the teacher will appear under the selected class and will have access to attendance, grading, examinations, and other classroom activities.

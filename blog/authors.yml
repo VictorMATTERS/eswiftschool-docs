@@ -1,23 +1,23 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+oibiang:
+  name: Osuwake Ibiang
+  title: eSwiftSchool Maintainer
+  url: https://eswiftschool.com
+  image_url: https://github.com/victormatters.png   # replace with your actual GitHub avatar or custom image
   page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: '/authors/osuwake-ibiang'
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: victormatters      # replace with your real handle
+    linkedin: victormatters   # replace with your LinkedIn username
+    github: victormatters     # replace with your GitHub username
+
+# vmatters:
+#   name: Victor Matters
+#   title: Front-End Engineer @ GOBFA Technologies
+#   url: https://github.com/victormatters
+#   image_url: https://github.com/victormatters.png
+#   page:
+#     permalink: '/authors/victor-matters'
+#   socials:
+#     x: victormatters
+#     github: victormatters
+#     linkedin: victormatters

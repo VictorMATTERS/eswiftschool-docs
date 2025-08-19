@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'eSwiftSchool',
+  title: 'eSwiftSchool Docs',
   tagline: 'Your Ultimate School Management Solution',
   favicon: 'img/favicon.ico',
 

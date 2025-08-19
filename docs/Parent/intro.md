@@ -1,47 +1,65 @@
 ---
 sidebar_position: 1
+title: Parent Portal Login Guide
+tags: [Parent Portal, Login, Guide, Parents, eSwiftSchool]
 ---
 
-# Tutorial Intro
+# Parent Portal Login Guide
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The **Parent Portal** gives you secure access to your child’s school information — attendance, results, announcements, and more.  
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+## 🔑 How to Get Your Login Details
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Your child’s school will provide you with a **Portal Access Slip** containing:  
+- The **school’s unique web address** (e.g., `brightfuture.eswiftschool.com`)  
+- Your **email address** (for login)  
+- A **temporary password**  
 
-### What you'll need
+📌 Example of a Parent Portal Access Slip:  
+![Parent Portal Access Slip Example](./img/parent-access-slip.png)
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+---
 
-## Generate a new site
+## 🌐 How to Log In
 
-Generate a new Docusaurus site using the **classic template**.
+1. Go to your **child’s school portal** (e.g., `brightfuture.eswiftschool.com`).  
+2. On the **top-right corner**, open the dropdown and select **Parent**.  
+3. Enter your **email** and **password**.  
+4. Click **Login**.  
 
-The classic template will automatically be added to your project after you run the command:
+📌 Example of the Parent Portal Login Page:  
+![Parent Portal Login Page](./img/parent-login-page.png)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+---
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## 🔒 Important: About Your Password  
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Sometimes, instead of showing your password on the **access slip**, you may see a message like this:  
 
-## Start your site
+> **“For your security, this password is hidden. Please use the one you created.”**
 
-Run the development server:
+This means:  
+- You (the parent) **have already changed the default password** provided by the school, OR  
+- You **created the parent account yourself** and set a password during registration.  
 
-```bash
-cd my-website
-npm run start
-```
+➡️ For security reasons, your private password cannot be shown again.  
+➡️ Simply log in with the password you already created.  
+➡️ If you have forgotten it, click **“Forgot Password”** on the login page to reset it.  
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+📌 Example of the Login Page with Hidden Password Notice:  
+![Password Hidden Example](./img/password-hidden.png)
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+---
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## 📊 Parent Dashboard  
+
+Once logged in, you’ll arrive at your **child’s school dashboard**, which gives you access to:  
+- Attendance records  
+- Academic reports  
+- Assignments  
+- School announcements  
+
+📌 Example of a Parent Dashboard:  
+![Parent Dashboard Example](./img/parent-dashboard.png)
