@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className={styles.heroTitle}>
-          {siteConfig.title}
+          eSwiftSchool Documentation
         </Heading>
         <p className={styles.heroSubtitle}>
           Welcome to the eSwiftSchool Management System Guide
@@ -34,7 +34,6 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`User Documentation`}
       description="Comprehensive user guide for eSwiftSchool, a modern school management system that simplifies student enrollment, attendance tracking, grading, communication, and administration for schools of all sizes.">
       <HomepageHeader />
       <main>
