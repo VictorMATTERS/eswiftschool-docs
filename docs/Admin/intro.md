@@ -13,12 +13,18 @@ This guide will walk you through **creating your school portal** and completing 
 
 1. **Go to eSwiftSchool**
    - Open your browser and visit **[www.eswiftschool.com](https://www.eswiftschool.com)**.
-   - Click the **Create Your School Account** button.
+   - Click the **Create Your School Account** button.  
+
+   📌 eSwiftSchool official website with **Create Your School Portal** button highlighted:  
+   ![Create School Account Page](./img/create-school-portal-button.png)
 
 2. **Fill in Your School Details**
-   - **Name of School** — Full name as you want it displayed.
-   - **School Type** — Day School, Boarding School, or Combined.
-   - **Subdomain** — Your school’s unique web address inside eSwiftSchool *(e.g., `brightfuture.eswiftschool.com`)*.
+   - **Name of School** — Full name as you want it displayed.  
+   - **School Type** — Day School, Boarding School, or Combined.  
+   - **Subdomain** — Your school’s unique web address inside eSwiftSchool *(e.g., `brightfuture.eswiftschool.com`)*.  
+
+     📌 Example of School Details Form:  
+     ![School Details Form](./img/school-details-form.png)
 
      <details>
      <summary>📝 What is a Subdomain?</summary>
@@ -36,18 +42,21 @@ This guide will walk you through **creating your school portal** and completing 
      - Avoid spaces and special characters.
      </details>
 
-   - **Country** — Your school’s country.
-   - **School Address** — Your school’s full address.
+   - **Country** — Your school’s country.  
+   - **School Address** — Your school’s full address.  
 
 3. **Enter Your Admin Details**
-   - **Admin's Full Name** — First and last name.
-   - **Admin's Email** — Used for login.
-   - **Password** — At least 6 characters, mix of uppercase, lowercase, numbers, and symbols.
-   - **Confirm Password** — Re-enter the password.
+   - **Admin's Full Name** — First and last name.  
+   - **Admin's Email** — Used for login.  
+   - **Password** — At least 6 characters, mix of uppercase, lowercase, numbers, and symbols.  
+   - **Confirm Password** — Re-enter the password.  
+
+   📌 Example of Admin Details Form:  
+   ![Admin Details Form](./img/admin-details.png)
 
 4. **Agree & Submit**
-   - Tick the checkbox for **Terms & Privacy Policy**.
-   - Click **Finish**.
+   - Tick the checkbox for **Terms & Privacy Policy**.  
+   - Click **Finish**.  
 
 ---
 
@@ -55,12 +64,27 @@ This guide will walk you through **creating your school portal** and completing 
 
 After logging in for the first time, **eSwiftSchool** will guide you through your **initial setup**:
 
-1. **Verify Your Email** — Check your inbox for a verification link from eSwiftSchool and click it to confirm your email.
-2. **Select Class Levels** — Choose the class levels your school operates, then click **Next**.
+1. **Verify Your Email** — Check your inbox for a verification link from eSwiftSchool and click it to confirm your email.  
+
+   📌 Example:  
+   ![Email Verification](./img/email-verification.png)
+
+2. **Select Class Levels** — Choose the class levels your school operates, then click **Next**.  
+
+   📌 Example:  
+   ![Select Class Levels](./img/select-class-levels.png)
+
 3. **Select Classes** — A list of classes will be suggested based on your selected class levels. Click **Next** to proceed.  
-   *Note: You can always rename or add more classes later if needed.*
+   *Note: You can always rename or add more classes later if needed.*  
+
+   📌 Example:  
+   ![Select Classes](./img/select-classes.png)
+
 4. **Set Current Session** — Review the start and end dates of the terms and adjust them to match your school calendar. Finally, click **Finish**.  
-   *Tip: Ensure the dates are accurate to help the system manage scheduling effectively and keep school operations running smoothly.*
+   *Tip: Ensure the dates are accurate to help the system manage scheduling effectively and keep school operations running smoothly.*  
+
+   📌 Example:  
+   ![Set Session Calendar](./img/set-session-calendar.png)
 
 ---
 
@@ -69,7 +93,9 @@ After logging in for the first time, **eSwiftSchool** will guide you through you
 Once onboarding is complete:
 
 - You’ll land on your **Admin Dashboard**.  
-- From here, you can manage **students, staff, classes, attendance, finances, conduct CBT examinations, and more**.
+- From here, you can manage **students, staff, classes, attendance, finances, conduct CBT examinations, and more**.  
+
+---
 
 **Need Help?**  
 Contact support via **Support → Contact Us** in your dashboard.
