@@ -60,7 +60,7 @@ This guide will walk you through **creating your school portal** and completing 
 
 ---
 
-# Step 2 - Onboarding
+## Step 2 - Onboarding
 
 After logging in for the first time, **eSwiftSchool** will guide you through your **initial setup**:
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 9
 title: Publish Results
 tags: [Examination, Publish Examination, Results, eSwiftSchool]
 ---
