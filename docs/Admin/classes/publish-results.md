@@ -7,8 +7,7 @@ tags: [Examination, Publish Examination, Results, eSwiftSchool]
 # 📢 Publish Results
 
 By now, it is assumed that you have already:
-- Recorded **Assessment Scores** → [How to Record Assessments](/docs/admin/classes/record-class-assessment)
-- Recorded **Examination Scores** → [How to Record Examinations](/docs/admin/classes/record-class-examination)
+- Recorded **Assessment and Examination Scores** → [How to Record Scores](/docs/admin/classes/record-examination-scores)
 
 Publishing is the **final step**. Until results are published, they will not be visible to students, parents, or in the student’s academic records.
 
@@ -56,6 +55,6 @@ Publishing is the **final step**. Until results are published, they will not be 
 
 ## 🧭 Suggested Workflow
 
-**Assessment → Examination → Result Preferences → Publish**  
+**Record Examination Scores → Result Preferences → Publish**  
 
 > Keep this order to ensure all data appears correctly across student profiles and reports.
