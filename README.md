@@ -22,9 +22,9 @@ Explore the system features using the credentials below on our [Demo Server](htt
 
 | User Role | Username | Password |
 | :--- | :--- | :--- |
-| **Administrator / Staff** | `eswiftschool@gmail.com` | `Password: 123456` |
-| **Parent** | `demoemailadress@gmail.com` | `Password: 123456` |
-| **Student** | `253975BB` | `Access Code: 634455` |
+| **Administrator / Staff** | `eswiftschool@gmail.com` | `123456` |
+| **Parent** | `demoemailadress@gmail.com` | `123456` |
+| **Student** | `253975BB` | `634455` |
 
 ---
 
