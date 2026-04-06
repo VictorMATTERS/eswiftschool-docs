@@ -1,41 +1,68 @@
-# Website
+# eSwiftSchool Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the official documentation repository for **eSwiftSchool**, a comprehensive school management system designed to streamline academic operations, fee tracking, and communication.
 
-### Installation
+This repository serves as a central guide for staff, parents, and students to navigate the platform effectively.
 
-```
-$ yarn
-```
+> [!IMPORTANT]
+> **Documentation Only:** This repository contains the guides and markdown files for the eSwiftSchool documentation site. It **does not** contain the source code for the official eSwiftSchool application.
 
-### Local Development
+---
 
-```
-$ yarn start
-```
+## 🌐 Quick Links
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+* **Official Website:** [eswiftschool.com](https://eswiftschool.com)
+* **Live Demo:** [demo.eswiftschool.com](https://demo.eswiftschool.com)
 
-### Build
+---
 
-```
-$ yarn build
-```
+## 🔑 Demo Login Details
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Explore the system features using the credentials below on our [Demo Server](https://demo.eswiftschool.com):
 
-### Deployment
+| User Role | Username | Password |
+| :--- | :--- | :--- |
+| **Administrator / Staff** | `eswiftschool@gmail.com` | `Password: 123456` |
+| **Parent** | `demoemailadress@gmail.com` | `Password: 123456` |
+| **Student** | `253975BB` | `Access Code: 634455` |
 
-Using SSH:
+---
 
-```
-$ USE_SSH=true yarn deploy
-```
+## 📖 What’s Inside?
 
-Not using SSH:
+This documentation covers the primary modules of the eSwiftSchool ecosystem:
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+### 🏫 For Staff & Administrators
+* **Student Management:** Enrollment and student record maintenance.
+* **Academics:** Automated report card generation and curriculum tracking.
+* **Finance & Payroll:** Fee tracking, automated receipts, and staff salary management.
+* **Scheduling:** Real-time school timetable management.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### 👪 For Parents
+* **Financial Tracking:** Real-time view of fee payments and balances.
+* **Student Progress:** Instant access to academic performance and attendance records.
+
+### 🎓 For Students
+* **CBT Module:** Guide on taking Computer-Based Tests and viewing results.
+* **Learning Resources:** Accessing timetables and classroom materials.
+
+---
+
+## 🤝 Contributing
+
+We encourage developers and technical writers to help improve this documentation. If you find a bug in the instructions or wish to add a new guide, please feel free to contribute.
+
+1.  **Fork** this repository.
+2.  Create a branch for your updates.
+3.  Submit a **Pull Request** for review.
+
+*Note: While we welcome contributions to the documentation files, please respect that the application source code remains private.*
+
+---
+
+## 📩 Support
+
+For further inquiries or technical assistance, please visit our official website at [eswiftschool.com](https://eswiftschool.com).
+
+---
+*© 2026 eSwiftSchool. All rights reserved.*
