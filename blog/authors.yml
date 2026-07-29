@@ -6,9 +6,9 @@ oibiang:
   page:
     permalink: '/authors/osuwake-ibiang'
   socials:
-    x: victormatters      # replace with your real handle
-    linkedin: victormatters   # replace with your LinkedIn username
-    github: victormatters     # replace with your GitHub username
+    x: victormatters     
+    linkedin: osuwake-ibiang   
+    github: victormatters   
 
 # vmatters:
 #   name: Victor Matters
@@ -20,4 +20,4 @@ oibiang:
 #   socials:
 #     x: victormatters
 #     github: victormatters
-#     linkedin: victormatters
+#     linkedin: osuwake-ibiang
